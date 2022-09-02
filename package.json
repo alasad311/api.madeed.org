@@ -1,0 +1,26 @@
+{
+  "name": "api.madeed.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alasad311/api.madeed.org.git"
+  },
+  "author": "alasad311@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alasad311/api.madeed.org/issues"
+  },
+  "homepage": "https://github.com/alasad311/api.madeed.org#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  }
+}
