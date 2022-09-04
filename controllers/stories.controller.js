@@ -1,8 +1,8 @@
-const Programs = require("../models/program.model.js");
+const News = require("../models/stories.model.js");
 
 exports.getAll = (req, res) => {
     const authHeader = req.headers['authorization']  
-    Programs.getAll((err, data) => {
+    News.getAll((err, data) => {
       if (err)
         res.status(200).send({
           code:err.code,

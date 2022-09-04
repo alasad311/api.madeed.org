@@ -1,8 +1,8 @@
-const Programs = require("../models/program.model.js");
+const Admin = require("../models/admin.model.js");
 
 exports.getAll = (req, res) => {
     const authHeader = req.headers['authorization']  
-    Programs.getAll((err, data) => {
+    Admin.getAll((err, data) => {
       if (err)
         res.status(200).send({
           code:err.code,

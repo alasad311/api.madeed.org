@@ -1,9 +1,9 @@
 const sql = require("./db.js");
 
-const Projects = function(project) {
+const ProjectDetails = function(projectdetails) {
 };
-Projects.getAll = (id,result) => {
-    let query = "SELECT * FROM projects WHERE program_id = ?";
+ProjectDetails.getAll = (id,result) => {
+    let query = "SELECT * FROM success_stories WHERE id = ?";
     sql.query(query,[id], (err, res) => {
         if (err) {
         console.log("error: ", err);
@@ -14,4 +14,4 @@ Projects.getAll = (id,result) => {
         result(null, res);
     });
 };
-module.exports = Projects;
+module.exports = ProjectDetails;
