@@ -1,6 +1,6 @@
 module.exports = {
-    HOST: "madeed.org",
-    USER: "madeed05_webadmin",
-    PASSWORD: "XA]-;G6~ojee",
-    DB: "madeed05_website"
+    HOST: "localhost",
+    USER: "scdoman_madeedad",
+    PASSWORD: "9mBK*Qx,2];;",
+    DB: "scdoman_madeed"
 };
