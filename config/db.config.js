@@ -1,6 +1,6 @@
 module.exports = {
     HOST: "localhost",
-    USER: "scdoman_madeedad",
-    PASSWORD: "9mBK*Qx,2];;",
-    DB: "scdoman_madeed"
+    USER: "madecnbe_admin",
+    PASSWORD: "1jqS,-[]KOqW",
+    DB: "madecnbe_website"
 };
